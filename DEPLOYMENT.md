@@ -37,7 +37,8 @@ git push -u origin main
    - `MODEL_PROVIDER` = `gemini`
 5. Click **Deploy** — wait for it to go live
 6. Copy the URL e.g. `https://foodrescue-ai.onrender.com`
-
+<!-- https://foodrescue-ai.onrender.com
+ -->
 ---
 
 ## Step 3 — Deploy Server on Render
@@ -64,7 +65,7 @@ git push -u origin main
    - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
    - `CLIENT_URL` = your Vercel URL (fill in after Step 4, then redeploy)
 4. Click **Deploy** — copy the URL e.g. `https://foodrescue-server.onrender.com`
-
+<!-- https://foodrescue-server.onrender.com -->
 ---
 
 ## Step 4 — Deploy Client on Vercel
@@ -82,7 +83,7 @@ git push -u origin main
    - `VITE_CLOUDINARY_CLOUD_NAME` = your cloud name
    - `VITE_CLOUDINARY_UPLOAD_PRESET` = your upload preset
 5. Click **Deploy** — copy the URL e.g. `https://foodrescue.vercel.app`
-
+<!-- https://food-rescue-ai-six.vercel.app/ -->
 ---
 
 ## Step 5 — Update URLs
